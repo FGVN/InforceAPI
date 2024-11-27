@@ -8,6 +8,7 @@ public partial class ProductsController
         public double Width { get; set; }
         public double Height { get; set; }
         public double Weight { get; set; }
-        public IFormFile Image { get; set; } // For image upload
+        public int Count { get; set; }
+        public IFormFile? Image { get; set; } // For image upload
     }
 }
